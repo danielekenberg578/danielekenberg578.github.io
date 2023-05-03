@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("bakgrund.jpg");
+    background-size: 100%;
+}
+
+.disableBackground{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 6%;
+}
+
+.nav{
+    height: 10%;
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 6.5vh;
+    
+    border-bottom: solid black;
+    
+}
+
+.result{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 2vh;
+    justify-content: space-between;
+    align-items: center;
+
+    border-style: solid;
+    border-color: black;
+}
+
+#copy { 
+    padding-left: 10px;
+    width: 4vW;
+}
+
+#reload {
+    padding-right: 10px;
+    width: 4vw;
+    
+}
+
+.selection{
+    
+    margin: 0 auto;
+    height: 10%;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2vh;
+    width: 80%;
+    height: 35%;
+    padding-top: 20px;  
+    padding-bottom: 10px;
+
+    border-style: solid;
+    border-color: black;
+
+}

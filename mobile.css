@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    #copy {
+      width: 8vw;
+    }
+    #reload {
+      width: 8vw;
+      margin-left: -20px;
+    }
+
+  }
+  
